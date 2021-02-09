@@ -1,0 +1,14 @@
+{{!-- 
+<script id="foo" type="text/x-handlebars-template">
+  <p>{{bar}}</p>
+</script> --}}
+
+const source = document.getElementById('foo').innerHTML;
+ 
+const template = Handlebars.compile(source);
+ 
+const context = {
+  bar: 'Text of the paragraph element'
+};
+ 
+const compiledHtml = template(context);

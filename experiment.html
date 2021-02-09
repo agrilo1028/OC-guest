@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+  <!-- <body>
+    <h1>JavaScript localStorage demo</h1>
+    <textarea id="myTextarea" rows="10" cols="80"></textarea>
+    <p></p>
+    <button onclick="mySave()">Save</button>
+    <button onclick="myLoad()">Load</button>
+    <script>
+      function mySave() {
+        var myContent = document.getElementById("myTextarea").value;
+        localStorage.setItem("myContent", myContent);
+      }
+      function myLoad() {
+        var myContent = localStorage.getItem("myContent");
+        document.getElementById("myTextarea").value = myContent;
+        let styles = `
+          background-color: black;
+          color: green;
+        `
+        document.getElementById("myTextarea").style = styles;
+      }
+    </script>
+  </body> -->
+  <body>
+    <!-- <button id='save'>Save</button> -->
+    <input id='input' placeholder="Enter some text" name="name"></input>
+    <p id="values"></p>
+    <script>
+      const input = document.querySelector('input');
+      const log = document.getElementById('values');
+
+      input.addEventListener('input', updateValue);
+
+      function updateValue(e) {
+        log.textContent = e.target.value;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,432 @@
+header {
+    position: fixed;
+    top: 0;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+header span:after {
+    content: '\1438';
+}
+
+header #first {
+    width: 40px;
+    margin-left: 8px;
+}
+
+header #second {
+    width: 171px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+header a:visited {
+    text-decoration: none;
+    color: black;
+}
+header a:link {
+    text-decoration: none;
+    color: black;
+}
+
+
+body {
+    background-image: url('./images/backgroundlan.png');
+    background-repeat: no-repeat;
+    background-position: center 240px;
+    background-attachment: fixed;
+    background-size: 240px 220px;
+    color: black;
+    width: 414px;
+    margin: 0 auto;
+    }
+
+main h2 {
+    font-size: 45px;
+    font-family: 'Trebuchet MS';
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+.shorter {
+    width: 88px;
+}
+
+main h3 {
+    font-size: 25px;
+    border-bottom-style: groove;
+    font-family: 'Trebuchet MS';
+    letter-spacing: 2px;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-bottom: 45px;
+    width: 115px;
+}
+
+main {
+    font-family: 'Times New Roman';
+    position: relative;
+    top: 80px;
+    padding-bottom: 100px;
+}
+
+main img {
+    width: 40px;
+    margin-right: 20px;
+    margin-bottom: 42px;
+    margin-left: 44px;
+} 
+
+main table a:visited {
+    text-decoration: none;
+    color: black;
+}
+main table a:link {
+    text-decoration: none;
+    color: black;
+}
+
+table td {
+    cursor: pointer;
+}
+
+table td:nth-child(2) {
+    font-size: 25px;
+    font-weight: 100;
+    padding-bottom: 40px;
+}
+
+.phone {
+    height: 43px;
+    width: 27px;
+}
+
+.tick {
+    height: 40px;
+}
+
+.invoice {
+    height: 38px;
+    width: 30px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    background-color: white;
+    margin-left: 5px;
+    margin-bottom: 40px;
+  }
+  
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1C343D;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 29px;
+    width: 29px;
+    left: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #D0A955;
+  }
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #D0A955;
+  }
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(25px);
+    -ms-transform: translateX(25px);
+    transform: translateX(25px);
+}
+
+.slider.round {
+    border-radius: 34px;
+  }
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    height: 107px;
+    overflow: hidden;
+    border-spacing: 2px;
+    border-color: white;
+    border-style: solid;
+    border-collapse: separate;
+}
+
+.footer {
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    font-family: 'GillSans';
+    width: 414px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.footer th {
+    width: 135px;
+    font-weight: 200;
+}
+
+.space {
+    background-color: white;
+}
+
+.space th {
+    background-color:#1C343D;
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: white;
+}
+footer a:link {
+    text-decoration: none;
+    color: white;
+}
+
+/* my profile */
+
+#my-profile {
+    width: 414px;
+    margin: 55px auto 0;
+}
+
+#my-profile a:link {
+    text-decoration: none;
+}
+
+#my-profile a:visited {
+    text-decoration: none;
+}
+
+#my-profile .title {
+    text-align: right;
+    padding-right: 20px;
+}
+
+#previous {
+    width: 16px;
+    margin-left: 20px;
+    margin-bottom: -30px;
+}
+
+#my-profile body {
+    background-color: #1C343D;
+    background-image: none;
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    font-weight: 200;
+}
+
+#my-profile span button {
+    margin-left: 41px;
+}
+
+#my-profile table, #family table {
+    margin-top: 50px;
+    margin-left: 42px;
+}
+
+#my-profile table img {
+    text-align: center;
+    opacity: 100%;
+}
+
+#my-profile table td, #family table td {
+    text-align: right;
+    cursor: default;
+}
+
+#my-profile .John {
+    text-align: left;
+    vertical-align: text-top;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+
+#my-profile td {
+    padding:0px;
+}
+
+#my-profile #date {
+    padding-right: 10px;
+    letter-spacing: 1px;
+}
+
+#my-profile .space-up {
+    padding-top: 50px;
+    line-height: 0;
+    vertical-align: text-bottom;
+}
+
+#my-profile .u {
+    text-align: left;
+}
+
+#my-profile button {
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+    color:white;
+    background-color: #1C343D;
+    border: none;
+    text-align: right;
+    cursor: pointer;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+}
+
+#my-profile .up {
+    margin-bottom: 38px;
+}
+
+#my-profile #billing {
+    margin: 0 auto;
+    background-color: #1C343D;
+    opacity: 50%;
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    border: none;
+    /* display: none; */
+  }
+  
+#my-profile #new-billing {
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    /* display: none; */
+}
+
+#my-profile #save {
+    /* display: none; */
+}
+
+#my-profile #home-tr {
+    vertical-align: bottom;
+    padding-bottom: 10px;
+}
+
+/* family details */
+
+#family {
+    width: 414px;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+#family header {
+    font-family: 'Times New Roman';
+    color: black;
+    font-size: 25px;
+    padding-top: 55px;
+    text-align: justify;
+}
+
+#family header img {
+    width: 40px;
+    margin-right: 20px;
+    margin-left: 120px;
+} 
+
+#family #previous {
+    width: 16px;
+    padding-bottom: 25px;
+    margin-left: 10px;
+}
+
+#family header a:visited {
+    text-decoration: none;
+    color: black;
+}
+#family header a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#family #outter {
+    padding-top: 30px;
+}
+
+#family button {
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+    color:black;
+    background-color: white;
+    border: none;
+    text-align: right;
+    cursor: pointer;
+}
+
+#family td:nth-child(1) {
+    text-align: left;
+    padding-left: 30px;
+}
+
+#family input[type=date] {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border: solid black 1px;
+    width: 90px;
+    background-color: none;
+    margin-top: 0;
+    margin-left: -5px;
+}
+
+#family table p {
+    margin-bottom: 20px;
+    line-height: 0;
+}
+
+#family table td {
+    /* border: 1px solid black; */
+}
+
+#family #inner {
+    display: inline;
+    margin-left: -35px;
+}
+
+#inner td img {
+    padding-left: 0;
+    margin-left: 0;
+    width: 30px;
+}

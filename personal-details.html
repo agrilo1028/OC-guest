@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html id='my-profile'>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <head>
+            <title>The Lanesborough - Personal Details</title>
+            <link href="profile.css" rel="stylesheet" />
+        </head>
+        <body>
+            <a href='./profile.html'>
+                <img id='previous' src='./icons/arrow-previous@2x.png'>
+            </a>
+            <div class='title'>My Profile</div>
+            <table>
+                <tr>
+                    <td rowspan="2"><img src='./icons/profile-picture.png'></td>
+                    <td class='John'>John Hamish Smith<span><button> Edit</button></span></td>
+                </tr>
+                <tr>
+                    <td><span id='date'>01.03.1959</span>
+                    <div><button>Edit</button></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='u' class='space-up' id='home-tr'>
+                        <u>Home address</u>
+                    
+                    </td>
+                    <td class='space-up'>
+                        <button>Edit</button>
+                        <div><button>Delete</button></div>
+                    </td>
+                </tr>
+                <tr> 
+                    <td colspan="2" class='u'>47 Fashion Street E1 6PX </td>
+                </tr>
+                <tr>
+                    <td class='u' class='space-up'><u>Billing Adress</u></td>
+                    <td class='space-up'>
+                        <button id='add' class='up'>Add</button>
+                    </td>    
+                    <td class='space-up'>
+                        <button id='save'>Save</button>
+                    </td>
+                </tr>
+                <tr> 
+                    <td colspan="2" id='billing'>
+                        <textarea id='billing' placeholder="Type here" cols='28' rows='8'></textarea>
+                        <p id='new-billing'></p>
+                    </td>
+                </tr>
+            </table>
+            <script src='./handlebars.js' type='text/javascript'></script>
+        </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='test.css' rel='stylesheet'>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td rowspan="2"><img src='./icons/profile-picture.png'></td>
+                <td class='John'>John Hamish Smith<button id='edit-name'>Edit</button></td>
+                <td><textarea id='new-name' cols='28' rows='8'></textarea></td>
+            </tr>
+            <tr>
+                <td>01.03.1959
+                <div><button>Edit</button></div>
+                </td>
+            </tr>
+            <tr>
+                <td class='u' class='space-up'>
+                    <u>Home address</u>
+                
+                </td>
+                <td class='space-up'>
+                    <button id='edit-home'>Edit</button>
+                    <button id ='delete-home'>Delete</button>
+                </td>
+            </tr>
+            <tr> 
+                <td colspan="2" class='u' id='home-address'>47 Fashion Street E1 6PX </td>
+                <td colspan="2"><textarea id='home' placeholder="Type here" cols='28' rows='8'></textarea></td>
+            </tr>
+            <tr>
+                <td class='u' class='space-up'><u>Billing Adress</u></td>
+                <td class='space-up'><button id='add'>Add</button></td>
+                <td class='space-up'><button id='save'>Save</button></td>
+            </tr>
+            <tr> 
+                <td colspan="2">
+                    <textarea id='billing' placeholder="Type here" cols='28' rows='8'></textarea>
+                    <p id='new-billing'></p>
+                </td>
+            </tr>
+        </table>
+        <script src="./test.js" type="text/javascript"></script>
+    </body>
+</html>
