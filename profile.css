@@ -335,9 +335,9 @@ footer a:link {
     /* display: none; */
 }
 
-#my-profile #save {
-    /* display: none; */
-}
+/* #my-profile #save {
+    display: none;
+} */
 
 #my-profile #home-tr {
     vertical-align: bottom;
@@ -358,19 +358,18 @@ footer a:link {
     color: black;
     font-size: 25px;
     padding-top: 55px;
-    text-align: justify;
 }
 
 #family header img {
     width: 40px;
     margin-right: 20px;
-    margin-left: 120px;
+    margin-left: 100px;
 } 
 
 #family #previous {
     width: 16px;
     padding-bottom: 25px;
-    margin-left: 10px;
+    margin-left: -25px;
 }
 
 #family header a:visited {
@@ -384,7 +383,46 @@ footer a:link {
 
 #family #outter {
     padding-top: 30px;
+    letter-spacing: 2px;
 }
+
+#outter .member {
+    vertical-align: middle;
+    text-align: left;
+    margin-top: 30px;
+}
+
+#outter .border button{
+    margin-top: 20px;
+    text-align: right;
+}
+
+.border:after {
+    content: '';
+    display: block;
+    width: 175px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    left: 25px;
+}
+
+.border:before {
+    content: '';
+    display: block;
+    width: 175px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    right: 25px;
+}
+
+/* #outter tr:nth-child(2), #outter tr:nth-child(4) {
+    border-top: solid 1px black;
+    display: block;
+    height: 25px;
+    margin-bottom: 20px;
+} */
 
 #family button {
     font-size: 16px;
@@ -392,22 +430,23 @@ footer a:link {
     color:black;
     background-color: white;
     border: none;
-    text-align: right;
     cursor: pointer;
+    display: block;
+    text-align: right;
+    margin-left: 40px;
 }
 
 #family td:nth-child(1) {
     text-align: left;
-    padding-left: 30px;
 }
 
 #family input[type=date] {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    border: solid black 1px;
     width: 90px;
     background-color: none;
     margin-top: 0;
+    border: none;
     margin-left: -5px;
 }
 
@@ -416,17 +455,26 @@ footer a:link {
     line-height: 0;
 }
 
-#family table td {
-    /* border: 1px solid black; */
-}
-
 #family #inner {
     display: inline;
-    margin-left: -35px;
+    margin-left: -5px;
+    font-size: 20px;
+}
+
+#inner tr {
+    vertical-align: top;
+}
+
+#inner tr td:nth-child(2), #inner tr td:nth-child(3), #inner tr td:nth-child(4) {
+    padding-top: 10px;
 }
 
 #inner td img {
     padding-left: 0;
     margin-left: 0;
     width: 30px;
+}
+
+#inner td:nth-child(3) {
+    padding-left: 20px;
 }
