@@ -367,30 +367,32 @@ footer a:link {
 
 /* family details */
 
-#family {
+#family body {
     width: 414px;
-    margin: 0 auto;
     font-size: 25px;
     font-weight: 200;
 }
 
 #family header {
+    width: 100%;
+    margin: 0 auto;
     font-family: 'Times New Roman';
     color: black;
-    font-size: 25px;
-    padding-top: 55px;
+    padding-top: 8%;
+    position: fixed;
+    left: -5%;
 }
 
 #family header img {
     width: 40px;
     margin-right: 20px;
-    margin-left: 100px;
+    margin-left: 28%;
 } 
 
 #family #previous {
     width: 16px;
     padding-bottom: 25px;
-    margin-left: -25px;
+    margin-left: 0px;
 }
 
 #family header a:visited {
@@ -400,6 +402,11 @@ footer a:link {
 #family header a:link {
     text-decoration: none;
     color: black;
+}
+
+#family main {
+    width: 100%;
+    margin: 0 auto;
 }
 
 #family #outter {
