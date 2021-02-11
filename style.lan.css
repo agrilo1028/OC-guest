@@ -5,6 +5,7 @@ body {
     color: white;
     width: 414px;
     margin: 0 auto;
+    height: 100%;
 }
 
 .oc-logo {
@@ -71,6 +72,11 @@ input[type=submit] {
 
 /* end of OC sign-up page!! */
 
+#ochome {
+    min-width: 414px;
+    max-width: 600px;
+}
+
 #hotel-list {
     background: white;
     color: black;
@@ -87,7 +93,9 @@ input[type=submit] {
 #logo {
     position: fixed;
     z-index: 50;
-    width: 440px;
+    /* width: 440px; */
+    min-width: 414px;
+    max-width: 600px;
     background: #1C343D;
     display: inline-table;
 }
@@ -107,7 +115,7 @@ main {
     padding-top: 30px;
 }
 
-@media only screen and (max-width: 414px) {
+/* @media only screen and (max-width: 414px) {
     #logo {
 
         margin-top:0;
@@ -122,7 +130,7 @@ main {
         top: 130px;
     }
 
-}
+} */
 
 #hotel-list table img {
     border: 1px solid black;
@@ -169,27 +177,39 @@ td a:link {
 
 /* Landing LAN page from here */
 
+/* #lanhome {
+    min-width: 400px;
+    max-width: 600px;
+    width: 414px;
+} */
+
+#lanhome body {
+    width: 414px;
+    margin: 0 auto;
+}
+
 
 /* @media screen and (max-width: 600px) { */
     #facade {
-        background-image: url("./images/lan-facade.jpg");
+        background-image: url("./images/facade@2x.png");
         background-size: 100%;
-        width: 414px;
-        height: 259px;
-        margin: 0 auto;
+        /* width: 100%; */
+        height: 35%;
+        /* margin: 0 auto; */
         background-repeat: no-repeat;
         margin-bottom: -25px;
+        background-size: cover;
     }
 
     #white-logo {
-        padding-left: 178px;
-        padding-top: 207px;
+        padding-left: 43%;
+        padding-top: 51%;
     }
 
 
 .menu {
-    width: 414px;
-    margin: 0 auto;
+    /* width: 100%;
+    margin: 0 auto; */
     font-family: 'Trebuchet MS';
     margin-top: -3%;
     border: none;
