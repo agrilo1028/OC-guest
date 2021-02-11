@@ -63,13 +63,27 @@ main h2 {
     padding-left: 5%;
 }
 
-.shorter {
-    width: 20%;
+.shorter::after {
+    content: "";
+    display: block;
+    margin: 0;
+    padding-top: 1%;
+    border-bottom: 1px solid black;
+    width: 84px;
+}
+
+.longer::after {
+    content: "";
+    display: block;
+    margin: 0;
+    padding-top: 1%;
+    border-bottom: 1px solid black;
+    width: 100px;
 }
 
 main h3 {
     font-size: 24px;
-    border-bottom-style: groove;
+    /* border-bottom-style: groove; */
     font-family: 'Trebuchet MS';
     letter-spacing: 2px;
     font-weight: lighter;

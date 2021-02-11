@@ -5,7 +5,7 @@ body {
     color: white;
     width: 414px;
     margin: 0 auto;
-    height: 100%;
+    min-height: 736px;
 }
 
 .oc-logo {
@@ -85,7 +85,7 @@ input[type=submit] {
     font-size:23px;
     letter-spacing: 2px;
     position: relative;
-    top: 120px;
+    top: 100px;
     width: 414px;
     margin: 0 auto;
 }
@@ -98,6 +98,8 @@ input[type=submit] {
     max-width: 600px;
     background: #1C343D;
     display: inline-table;
+    height: 16%;
+    margin-top: -1%;
 }
 
 .OC {
@@ -112,7 +114,8 @@ input[type=submit] {
 }
 
 main {
-    padding-top: 30px;
+    /* padding-top: 30px; */
+    padding-top: 7%;
 }
 
 /* @media only screen and (max-width: 414px) {
@@ -208,8 +211,8 @@ td a:link {
 
 
 .menu {
-    /* width: 100%;
-    margin: 0 auto; */
+    width: 100%;
+    margin: 0 auto;
     font-family: 'Trebuchet MS';
     margin-top: -3%;
     border: none;
@@ -252,11 +255,15 @@ thead #insta {
 
 #hide-insta {
     opacity: 100%;
+    width: 100%;
 }
 
 .menu #menu-icon2 {
     text-align: left;
     margin-bottom: -5px;
+    /* padding-left: 21px; */
+    cursor: pointer;
+    opacity: 100%;
 }
 
 #show-profile {

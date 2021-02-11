@@ -26,14 +26,13 @@ let reset = () => {
 menuIcon.addEventListener('click', showProfile);
 menuIcon2.addEventListener('click', reset);
 
-//my profile buttons
+//profile details buttons
 
 const addButton = document.getElementById('add');
 const saveButton = document.getElementById('save');
 const textBoxBillAdd = document.getElementById('billing');
 const newBillAdd = document.getElementById('new-billing');
 
-// addButton.hidden = false;
 textBoxBillAdd.hidden = true;
 newBillAdd.hidden = true;
 saveButton.hidden = true;
