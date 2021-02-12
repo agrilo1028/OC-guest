@@ -183,27 +183,16 @@ td a:link {
 
 /* Landing LAN page from here */
 
-/* #lanhome {
-    min-width: 400px;
-    max-width: 600px;
-    width: 414px;
-} */
-
 #lanhome body {
     width: 414px;
     margin: 0 auto;
 }
 
-
-/* @media screen and (max-width: 600px) { */
     #facade {
         background-image: url("./images/facade@2x.png");
         background-size: 100%;
-        /* width: 100%; */
         height: 35%;
-        /* margin: 0 auto; */
         background-repeat: no-repeat;
-        margin-bottom: -25px;
         background-size: cover;
     }
 
@@ -239,8 +228,9 @@ td a:link {
     /* margin-top: 20px; */
 }
 
-thead {
+thead th {
     color: white;
+    margin-top: 10px;
 }
 
 .menu thead p {

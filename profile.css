@@ -374,13 +374,13 @@ footer a:link {
 
 /* family details */
 
-#family body {
+#family body, #contact body, #docs body {
     width: 414px;
     font-size: 25px;
     font-weight: 200;
 }
 
-#family header {
+#family header, #contact header, #docs header {
     width: 100%;
     margin: 0 auto;
     font-family: 'Times New Roman';
@@ -390,35 +390,37 @@ footer a:link {
     left: -5%;
 }
 
-#family header img {
+#family header img, #contact header img, #docs header img {
     width: 40px;
     margin-right: 20px;
     margin-left: 28%;
 } 
 
-#family #previous {
+#family #previous, #contact #previous, #docs #previous {
     width: 16px;
     padding-bottom: 25px;
     margin-left: 0px;
 }
 
-#family header a:visited {
+#family header a:visited, #contact header a:visited, #docs header a:visited {
     text-decoration: none;
     color: black;
 }
-#family header a:link {
+#family header a:link, #contact header a:link, #docs header a:link {
     text-decoration: none;
     color: black;
 }
 
-#family main {
+#family main, #contact main, #docs main, #docs footer {
     width: 100%;
     margin: 0 auto;
 }
 
-#family #outter {
+#outter {
     padding-top: 30px;
     letter-spacing: 2px;
+    width: 100%;
+    margin-right: 40px;
 }
 
 #outter .member {
@@ -429,7 +431,7 @@ footer a:link {
 
 #outter .border button{
     margin-top: 20px;
-    text-align: right;
+    vertical-align: middle;
 }
 
 .border:after {
@@ -446,7 +448,7 @@ footer a:link {
     padding-top: 30px;
 }
 
-#family button {
+#family button, #contact button, #docs button {
     font-size: 16px;
     font-family: 'Trebuchet MS';
     color:black;
@@ -454,8 +456,6 @@ footer a:link {
     border: none;
     cursor: pointer;
     display: block;
-    text-align: right;
-    margin-left: 40px;
 }
 
 #family td:nth-child(1) {
@@ -499,4 +499,58 @@ footer a:link {
 
 #inner td:nth-child(3) {
     padding-left: 20px;
+}
+
+/* contact details page specific */
+
+#contact #outter, #docs #outter {
+    margin-top: 20%;
+    width: 100%;
+}
+
+#contact header img {
+    width: 27px;
+}
+
+
+/* docs specific */
+
+#docs .border button {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#docs .border td {
+    padding-top: 35px;
+}
+
+#docs footer {
+    height: 164px;
+    background-color: #1C343D;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#docs footer p {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#docs footer td {
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+    padding-bottom: 25px;
+}
+
+#docs footer img:nth-child(1) {
+    width: 27px;
+    padding-top: 5px;
+    margin-right: 20px;
+    padding-left: 55px;
+}
+
+#docs footer img:nth-child(2) {
+    width: 36px;
+    padding-top: 5px;
+    margin-right: 20px;
 }
