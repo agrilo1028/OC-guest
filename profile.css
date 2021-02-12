@@ -275,14 +275,18 @@ footer a:link {
     font-weight: 200;
 }
 
-#my-profile span button {
+/* #my-profile span button {
     margin-left: 41px;
-}
+} */
 
 #my-profile table, #family table {
     margin-top: 50px;
     margin-left: 42px;
 }
+
+/* #my-profile table td {
+    border: 1px solid white;
+} */
 
 #my-profile table img {
     text-align: center;
@@ -300,11 +304,16 @@ footer a:link {
     padding-left: 20px;
     padding-right: 10px;
     padding-top: 10px;
+    padding-bottom: 20px;
     letter-spacing: 2px;
 }
 
 #my-profile td {
     padding:0px;
+}
+
+#my-profile #up {
+    vertical-align: text-top;
 }
 
 #my-profile #date {
@@ -313,9 +322,7 @@ footer a:link {
 }
 
 #my-profile .space-up {
-    padding-top: 50px;
-    line-height: 0;
-    vertical-align: text-bottom;
+    padding-top: 30px;
 }
 
 #my-profile .u {
@@ -339,30 +346,30 @@ footer a:link {
     margin-bottom: 38px;
 }
 
+#my-profile #add, #my-profile #save {
+    margin-top: 35px;
+}
+
 #my-profile #billing {
     margin: 0 auto;
     background-color: #1C343D;
-    opacity: 50%;
+    opacity: 80%;
     color: white;
     font-family: 'Times New Roman';
-    font-size: 25px;
+    font-size: 20px;
     border: none;
-    /* display: none; */
+    width: 100%;
   }
   
 #my-profile #new-billing {
-    font-family: 'Times New Roman';
-    font-size: 25px;
-    /* display: none; */
+    color: white;
+    text-align: left;
+    margin-top: 0;
 }
-
-/* #my-profile #save {
-    display: none;
-} */
 
 #my-profile #home-tr {
     vertical-align: bottom;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 /* family details */
@@ -432,25 +439,12 @@ footer a:link {
     height: 1px;
     background: #000;
     position: absolute;
-    left: 25px;
+    left: 25%;
 }
 
-.border:before {
-    content: '';
-    display: block;
-    width: 175px;
-    height: 1px;
-    background: #000;
-    position: absolute;
-    right: 25px;
+.border button {
+    padding-top: 30px;
 }
-
-/* #outter tr:nth-child(2), #outter tr:nth-child(4) {
-    border-top: solid 1px black;
-    display: block;
-    height: 25px;
-    margin-bottom: 20px;
-} */
 
 #family button {
     font-size: 16px;
