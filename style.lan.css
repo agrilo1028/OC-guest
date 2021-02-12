@@ -1,11 +1,14 @@
 /* #1C343D - background blue; #D0A955 - LAN yellow */
+#index {
+    min-height: 736px;
+}
 body {
     margin: 0;
     background: #1C343D;
     color: white;
     width: 414px;
     margin: 0 auto;
-    min-height: 736px;
+    height: 100%;
 }
 
 .oc-logo {
@@ -99,7 +102,7 @@ input[type=submit] {
     background: #1C343D;
     display: inline-table;
     height: 16%;
-    margin-top: -1%;
+    margin-top: -4%;
 }
 
 .OC {
@@ -115,7 +118,7 @@ input[type=submit] {
 
 main {
     /* padding-top: 30px; */
-    padding-top: 7%;
+    padding-top: 2%;
 }
 
 /* @media only screen and (max-width: 414px) {
