@@ -530,7 +530,7 @@ footer a:link {
     background-color: #1C343D;
     color: white;
     letter-spacing: 2px;
-    width: 100px;
+    width: 100%;
     border: 1px solid pink;
 }
 
