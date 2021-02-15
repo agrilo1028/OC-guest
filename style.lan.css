@@ -1,6 +1,6 @@
 /* #1C343D - background blue; #D0A955 - LAN yellow */
 #index {
-    min-height: 736px;
+    height: 100%;
 }
 body {
     margin: 0;
