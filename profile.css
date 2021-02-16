@@ -115,6 +115,10 @@ main table a:link {
     color: black;
 }
 
+main .menu {
+    width: 100%;
+}
+
 table td {
     cursor: pointer;
 }
@@ -530,13 +534,14 @@ footer a:link {
     background-color: #1C343D;
     color: white;
     letter-spacing: 2px;
-    width: 100%;
+    width: 414px;
     border: 1px solid pink;
+    padding-bottom: 20px;
 }
 
 #docs footer p {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 #docs footer td {
