@@ -463,6 +463,36 @@ footer a:link {
     display: block;
 }
 
+#add-member td:nth-child(1), #add-member td:nth-child(2) {
+    padding: 40px 0;
+}
+
+#parentesco, #parentesco2, #parentesco3 {
+    margin-top: 20px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#name, #name2, #name3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#buttons button, #buttons2 button, #buttons3 button {
+    display: block;
+    padding: 0;
+}
+
+#new-member td:nth-child(1), #new-member2 td:nth-child(1), #new-member3 td:nth-child(1) {
+    padding-top: 20px;
+}
+
+#new-member #inner tr td:nth-child(1), #new-member2 #inner tr td:nth-child(1), #new-member3 #inner tr td:nth-child(1) {
+    padding-top: 0px;
+}
+
 #family td:nth-child(1) {
     text-align: left;
 }
