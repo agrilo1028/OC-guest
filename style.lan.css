@@ -1,13 +1,14 @@
 /* #1C343D - background blue; #D0A955 - LAN yellow */
 #index {
     max-height: 800px;
+    width: 414px;
+    margin: 0 auto;
 }
 body {
     margin: 0;
     background: #1C343D;
     color: white;
-    width: 414px;
-    margin: 0 auto;
+    width: 100%;
     height: 100%;
 }
 

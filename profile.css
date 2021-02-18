@@ -279,18 +279,10 @@ footer a:link {
     font-weight: 200;
 }
 
-/* #my-profile span button {
-    margin-left: 41px;
-} */
-
 #my-profile table, #family table {
     margin-top: 50px;
     margin-left: 42px;
 }
-
-/* #my-profile table td {
-    border: 1px solid white;
-} */
 
 #my-profile table img {
     text-align: center;
@@ -310,6 +302,7 @@ footer a:link {
     padding-top: 10px;
     padding-bottom: 20px;
     letter-spacing: 2px;
+    width: 100%;
 }
 
 #my-profile td {
@@ -320,9 +313,17 @@ footer a:link {
     vertical-align: text-top;
 }
 
-#my-profile #date {
+#my-profile input[type=date] {
     padding-right: 10px;
     letter-spacing: 1px;
+    background-color: #1C343D;
+    color: white;
+    border: 1px solid #1C343D;
+    box-shadow: none;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    text-align: right;
+    width: 130px;
 }
 
 #my-profile .space-up {
@@ -347,14 +348,14 @@ footer a:link {
 }
 
 #my-profile .up {
-    margin-bottom: 38px;
+    margin-bottom: 40px;
 }
 
 #my-profile #add, #my-profile #save {
     margin-top: 35px;
 }
 
-#my-profile #billing {
+#my-profile #billing, #my-profile #new-name, #my-profile #home {
     margin: 0 auto;
     background-color: #1C343D;
     opacity: 80%;
@@ -363,6 +364,7 @@ footer a:link {
     font-size: 20px;
     border: none;
     width: 100%;
+    border: solid 1px white;
   }
   
 #my-profile #new-billing {
@@ -372,8 +374,7 @@ footer a:link {
 }
 
 #my-profile #home-tr {
-    vertical-align: bottom;
-    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 /* family details */

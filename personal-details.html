@@ -13,14 +13,22 @@
             <table>
                 <tr>
                     <td rowspan="2"><img src='./icons/profile-picture.png'></td>
-                    <td class='John'>John Hamish Smith</td>
+                    <td class='John'>
+                        <span id='current-name'>John Hamish Smith</span>
+                        <textarea placeholder='Type here' id='new-name' cols='20' rows='3'></textarea>
+                        <span id='saved-new-name'></span>
+                    </td>
                 </tr>
                 <tr>    
-                    <td id='up'><button>Edit</button></td>
+                    <td id='up'>
+                        <button id='edit-name'>Edit</button>
+                        <button id='save-name'>Save</button>
+                    </td>
                 </tr>
                 <tr>
-                    <td colspan="2"><span id='date'>01.03.1959</span>
-                    <div><button>Edit</button></div>
+                    <td colspan="2"><input id='date' type='date' value='01.03.1959'>
+                    <div><button id='edit-date'>Edit</button></div>
+                    <div><button id='save-date'>Save</button></div>
                     </td>
                 </tr>
                 <tr>
@@ -29,23 +37,32 @@
                     
                     </td>
                     <td class='space-up'>
-                        <button>Edit</button>
-                        <div><button>Delete</button></div>
+                        <button id='add-home'>Add</button>
+                        <button id='save-home' class='up'>Save</button>
+                        <button id='edit-home'>Edit</button>
+                        <div><button id='delete-home'>Delete</button></div>
                     </td>
                 </tr>
                 <tr> 
-                    <td colspan="2" class='u'>47 Fashion Street E1 6PX </td>
+                    <td colspan="2" class='u'>
+                        <span id='current-home'>47 Fashion Street E1 6PX</span>
+                        <textarea id='home' placeholder="Type here" cols='20' rows='4'></textarea>
+                        <p id='new-home'></p>
+                    </td>
                 </tr>
                 <tr class='down'>
                     <td class='u' class='space-up'><u>Billing Adress</u></td>
                     <td class='space-up'>
                         <button id='add' class='up'>Add</button>
                         <button id='save' class='up'>Save</button>
+                        <button id='edit-billing'>Edit</button>
+                        <div><button id='delete-billing'>Delete</button></div>
+                        
                     </td>    
                 </tr>
                 <tr> 
                     <td colspan="2">
-                        <textarea id='billing' placeholder="Type here" cols='25' rows='5'></textarea>
+                        <textarea id='billing' placeholder="Type here" cols='20' rows='4'></textarea>
                         <p id='new-billing'></p>
                     </td>
                 </tr>
