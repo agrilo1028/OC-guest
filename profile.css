@@ -6,9 +6,6 @@ body {
 header {
     position: fixed;
     top: 0;
-    /* padding-top: 25px;
-    padding-left: 50px;
-    padding-bottom: 15px; */
     padding-top: 6%;
     padding-left: 20%;
     z-index: 100;
@@ -379,14 +376,14 @@ footer a:link {
 
 /* family details */
 
-#family body, #contact body, #docs body {
+#family body, #contact body, #docs body, #payment body, #preferences body {
     width: 414px;
     font-size: 25px;
     font-weight: 200;
 }
 
-#family header, #contact header, #docs header {
-    width: 100%;
+#family header, #contact header, #docs header, #payment header, #preferences header {
+    width: 414px;
     margin: 0 auto;
     font-family: 'Times New Roman';
     color: black;
@@ -395,28 +392,28 @@ footer a:link {
     left: -5%;
 }
 
-#family header img, #contact header img, #docs header img {
+#family header img, #contact header img, #docs header img, #payment header img, #preferences header img {
     width: 40px;
     margin-right: 20px;
-    margin-left: 28%;
+    margin-left: 38%;
 } 
 
-#family #previous, #contact #previous, #docs #previous {
+#family #previous, #contact #previous, #docs #previous, #payment #previous, #preferences #previous {
     width: 16px;
     padding-bottom: 25px;
     margin-left: 0px;
 }
 
-#family header a:visited, #contact header a:visited, #docs header a:visited {
+#family header a:visited, #contact header a:visited, #docs header a:visited, #payment header a:visited, #preferences header a:visited {
     text-decoration: none;
     color: black;
 }
-#family header a:link, #contact header a:link, #docs header a:link {
+#family header a:link, #contact header a:link, #docs header a:link, #payment header a:link, #preferences header a:link {
     text-decoration: none;
     color: black;
 }
 
-#family main, #contact main, #docs main, #docs footer {
+#family main, #contact main, #docs main, #docs footer, #payment footer {
     width: 100%;
     margin: 0 auto;
 }
@@ -454,7 +451,7 @@ footer a:link {
     padding-top: 30px;
 }
 
-#family button, #contact button, #docs button {
+#family button, #contact button, #docs button, #payment button, #preferences button {
     font-size: 16px;
     font-family: 'Trebuchet MS';
     color:black;
@@ -560,36 +557,170 @@ footer a:link {
     padding-top: 35px;
 }
 
-#docs footer {
+#docs footer, #payment footer {
     height: 164px;
     background-color: #1C343D;
     color: white;
     letter-spacing: 2px;
     width: 414px;
-    border: 1px solid pink;
     padding-bottom: 20px;
 }
 
-#docs footer p {
+#docs footer p, #payment footer p {
     text-align: center;
     padding-top: 20px;
+    font-family: 'Times New Roman';
+    font-size: 25px;
 }
 
-#docs footer td {
+#docs footer td, #payment footer td {
     font-size: 16px;
     font-family: 'Trebuchet MS';
     padding-bottom: 25px;
 }
 
-#docs footer img:nth-child(1) {
+#docs footer img:nth-child(1), #payment footer img:nth-child(1) {
     width: 27px;
     padding-top: 5px;
     margin-right: 20px;
     padding-left: 55px;
 }
 
-#docs footer img:nth-child(2) {
+#docs footer img:nth-child(2), #payment footer img:nth-child(2) {
     width: 36px;
     padding-top: 5px;
     margin-right: 20px;
+}
+
+/* payment details */
+
+#payment body {
+    background-image: none;
+}
+
+#payment header {
+    height: 13%;
+}
+
+#payment header, #payment footer {
+    overflow: hidden;
+    position: fixed;
+}
+
+#payment header img {
+    margin-left: 32%;
+}
+
+#payment .main {
+    margin-top: 18%;
+    margin-bottom: 26.5%;
+}
+
+#payment .CC {
+    width: 66%;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 155px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+#payment #expired {
+    background-color: #1C343D;
+    color: white;
+    opacity: 100%;
+    font-family: 200;
+    letter-spacing: 1px;
+}
+
+#payment #expired button {
+    margin-top: 55px;
+}
+
+#payment .main div:nth-child(2), #payment .main div:nth-child(3) {
+    background-color: #D0A955;
+    opacity: 100%;
+    color: black;
+    font-family: 200;
+    letter-spacing: 1px;
+}
+
+#payment .main div:nth-child(2) button, #payment .main div:nth-child(3) button {
+    color: black;
+}
+
+#payment table button {
+    background-color: inherit;
+    margin-left: 70px;
+    color: white;
+}
+
+#payment table button:nth-child(1) {
+    margin-top: 35px;
+}
+
+#payment footer table td {
+    margin-top: 15px;
+}
+
+#payment table td {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+/* preferences only */
+
+#preferences header {
+    text-align: right;
+}
+
+#preferences header table {
+    width: 100%;
+}
+
+#preferences .tick {
+    margin-left: 135%;
+    margin-top: 20px;
+}
+
+#preferences span, #preferences input[type=text] {
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    text-align: left;
+    vertical-align: top;
+    line-height: 2;
+    margin-bottom: 0px;
+    border: none;
+}
+
+#preferences main p, #preferences select {
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    text-align: right;
+    padding-right: 20px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+#preferences button {
+    padding-left: 80%;
+    background-color: transparent;
+}
+
+#preferences main table:nth-child(1) {
+    position: relative;
+    margin-top: 24%;
+    width: 100%;
+}
+
+#preferences main table {
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+}
+
+#preferences main tr img {
+    margin-bottom: 0px;
+    padding-top: 3px;
 }
