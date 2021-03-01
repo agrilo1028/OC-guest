@@ -592,6 +592,11 @@ footer a:link {
     margin-right: 20px;
 }
 
+#docs footer button {
+    color: white;
+    background-color: #1C343D;
+}
+
 /* payment details */
 
 #payment body {
